@@ -177,9 +177,9 @@ static const uint8_t config_descriptor[] = {
 
 //Ever wonder how you have more than 6 keys down at the same time on a USB keyboard?  It's easy. Enumerate two keyboards!
 
-#define STR_MANUFACTURER u"CNLohr"
-#define STR_PRODUCT      u"RV003USB Example MIDI Device"
-#define STR_SERIAL       u"000"
+#define STR_MANUFACTURER u"mitxela"
+#define STR_PRODUCT      u"Smallest MIDI synth 4"
+#define STR_SERIAL       u"004"
 
 struct usb_string_descriptor_struct {
 	uint8_t bLength;
